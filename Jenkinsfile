@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                echo 'Hello World from github push'
+                echo 'Hello World from github push-2'
             }
         }
         stage('Build') {
